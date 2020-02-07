@@ -1,8 +1,7 @@
 {
-  "name": "puppeteer-and-jest-example",
+  "name": "puppeteer-demo",
   "version": "1.0.0",
-  "description": "Example app using Headless Chrome, Puppeteer and Jest",
-  "main": "index.js",
+  "description": "Example app using Puppeteer and Jest",
   "jest": {
     "preset": "jest-puppeteer"
   },
@@ -11,10 +10,6 @@
     "testSave": "node saveFileExample.js",
     "testCreate": "node createPDF.js",
     "testSearch": "node searchGoogle.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paigen11/puppeteer-and-jest-example.git"
   },
   "keywords": [
     "puppeteer",
@@ -25,12 +20,7 @@
     "nodejs",
     "testing"
   ],
-  "author": "Paige Niedringhaus",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paigen11/puppeteer-and-jest-example/issues"
-  },
-  "homepage": "https://github.com/paigen11/puppeteer-and-jest-example#readme",
+  "author": "Mark Robin",
   "dependencies": {},
   "devDependencies": {
     "jest": "^23.6.0",

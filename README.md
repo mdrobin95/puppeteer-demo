@@ -6,11 +6,11 @@ This repo consists of a number of example files using Puppeteer by itself and Je
 
 ## Running These Test Files
 
-After cloning the repo, run npm to install and get all the dependencies.
-<br>```npm install```
+After cloning the repo, install all the dependencies.
+<br>```yarn install```
 
 Then, you can run any of the scripts inside the `package.json` file to see Puppeteer or Jest-Puppeteer in action.
-<br>e.g. `node automationDemo.js`, `test google.test.js`
+<br>e.g. `yarn automationDemo.js`, `test google.test.js`
 
 For further documentation, please see either Puppeteer's Github or Jest-Puppeteer's Github: 
 <br>https://github.com/GoogleChrome/puppeteer 
