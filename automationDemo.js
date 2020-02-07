@@ -2,7 +2,9 @@ const puppeteer = require('puppeteer');
 
 //it should display a form when clicking create button
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: false
+  });
   const page = await browser.newPage();
   await page.goto('https://streaks.arnelle.me/');
 

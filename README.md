@@ -1,4 +1,4 @@
-# Puppeteer, Headless Chrome & Jest Testing Example
+# Puppeteer & Jest Testing Example
 
 ## About This Repo
 
@@ -6,9 +6,12 @@ This repo consists of a number of example files using Puppeteer by itself and Je
 
 ## Running These Test Files
 
-After first downloading the repo, run an install to get all the dependencies pulled in.
-```npm install```
+After cloning the repo, run npm to install and get all the dependencies.
+<br>```npm install```
 
 Then, you can run any of the scripts inside the `package.json` file to see Puppeteer or Jest-Puppeteer in action.
+<br>e.g. `node automationDemo.js`, `test google.test.js`
 
-For further documentation, please see either Puppeteer's Github: https://github.com/GoogleChrome/puppeteer or Jest-Puppeteer's Github: https://github.com/smooth-code/jest-puppeteer.
+For further documentation, please see either Puppeteer's Github or Jest-Puppeteer's Github: 
+<br>https://github.com/GoogleChrome/puppeteer 
+<br>https://github.com/smooth-code/jest-puppeteer.
